@@ -1,0 +1,20 @@
+baseURL = '/'
+languageCode = 'es'
+title = 'Mi sitio diccionario'
+theme = "tale"
+
+
+
+[menu]
+  [[menu.main]]
+	identifier = "contacto"
+	name = "Contacto"
+	title = "Contacto"
+	url = "/contacto/"
+	weight = 0
+  [[menu.main]]
+	identifier = "posts"
+	name = "Posts"
+	title = "Posts"
+	url = "/posts/"
+	weight = 0
